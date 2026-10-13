@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/:path*", "destination": "https://resume.rigor.design/", "permanent": false }
+    { "source": "/", "destination": "https://resume.rigor.design/", "permanent": false },
+    { "source": "/:path+", "destination": "https://resume.rigor.design/", "permanent": false }
   ]
 }
